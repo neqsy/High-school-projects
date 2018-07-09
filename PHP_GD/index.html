@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Formularz GD</title>
+	<style>
+	
+		body
+		{
+			
+			background-image: url('skyscraper.png');
+		}
+		.container
+		{
+			margin:auto;
+		}
+		h1
+		{
+			text-align: center;
+		}
+		.form
+		{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<h1>Formularz GD</h1>
+	<form class="form" action="form_gd.php" method="POST">
+		<input type="number" name="height" placeholder="wysokość obrazka"><br><br>
+		<input type="number" name="width" placeholder="szerokość obrazka"><br><br>
+		kolor obrazka: <input type="color" name="colorBack" value="#ff0000"><br><br>
+		<input type="text" name="text" placeholder="tekst na obrazku"><br><br>
+		<input type="text" name="x" placeholder="odległość x tekstu"><br><br>
+		<input type="text" name="y" placeholder="odległość y tekstu"><br><br>
+		<input type="text" name="fsize" placeholder="wielkość czcionki"><br><br>
+		kolor tekstu: <input type="color" name="colorText" ><br><br>
+		<input type="submit" value="Wygeneruj obrazek">
+	</form>
+</div>
+</body>
+</html>

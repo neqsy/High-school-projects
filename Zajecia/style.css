@@ -1,0 +1,28 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	font-size: 10px;
+}
+.container	{
+	display: flex;
+	width:100%;
+	background-color: slateblue;
+	text-align: center;
+
+}
+.menu{
+	background-color: gold;
+}
+.content{
+	background-color: grey;
+
+}
+@media (max-width:500px){
+	html{
+		font-size:3em;
+}
+.container{
+	flex-direction: column;
+}
+}

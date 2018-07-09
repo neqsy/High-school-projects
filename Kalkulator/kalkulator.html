@@ -1,0 +1,39 @@
+<html>
+<head><title>Kalkulator</title>
+<script>
+function dodaj()
+{
+ formularz.wynik.value=parseFloat(formularz.a.value)
+                      +parseFloat(formularz.b.value);
+}
+function odejmij()
+{
+formularz.wynik.value=parseFloat(formularz.a.value)
+                    -parseFloat(formularz.b.value);
+}
+function mnoz()
+{
+ formularz.wynik.value=parseFloat(formularz.a.value)
+                      *parseFloat(formularz.b.value);
+}
+function dziel()
+{
+formularz.wynik.value=parseFloat(formularz.a.value)
+                    /parseFloat(formularz.b.value);
+}
+</script>
+</head>
+<body>
+<h1><center>Kalkulator</center></h1>
+<form name="formularz">
+<input type="text" name="a"/>
+<input type="button" value="+" onClick="dodaj()"/>
+<input type="button" value="-" onClick="odejmij()"/>
+<input type="button" value="*" onClick="mnoz()"/>
+<input type="button" value="/" onClick="dziel()" />
+<input type="text" name="b" />
+<strong>=</strong>
+<input type="text" name="wynik"/>
+</form>
+</body>
+</html>

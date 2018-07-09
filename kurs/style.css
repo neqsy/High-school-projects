@@ -1,0 +1,107 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('spiration dark/spiration dark.png');
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+}
+#container{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.logo{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 10px;
+	align-items: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+img{
+	width: 65px;
+	height: 65px;
+}
+header{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.menu{
+	min-width:20px;
+	font-weight: bold;
+	border-right: dashed white 1px;
+	padding: 10px;
+	font-size: 15px;
+	display: flex;
+}
+.menu:last-child{
+	border-right: none;
+}
+.button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+}
+.buttons{
+	min-width:200px;
+	min-height: 30px;
+	margin-bottom: 10px;
+	border:solid green 1px;
+	border-radius: 2px;
+}
+h2{
+	display: flex;
+	justify-content: center;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.gplus{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	min-height: 100px;
+}
+.gplus:hover{
+	background-color: green;
+}
+.facebook{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	min-height: 100px;
+}
+.facebook:hover{
+	background-color: blue;
+}
+.youtube{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	min-height: 100px;
+}
+.youtube:hover{
+	background-color: red;
+}
+.twitter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	min-height: 100px;
+}
+.twitter:hover{
+	background-color: aqua;
+}

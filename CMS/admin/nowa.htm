@@ -1,0 +1,19 @@
+<meta charset="utf-8"> 
+
+<style> 
+    table { width: 50%; } 
+    th { text-align: right; vertical-align: top; } 
+    table input,textarea { width: 100%; } 
+    textarea { height: 400px; } 
+</style> 
+
+<form action="dodaj.php" method="post"> 
+    <table> 
+        <tr><th>adres:</th><td><input name="url"></td></tr> 
+        <tr><th>head:</th><td><textarea name="head"></textarea></td></tr>
+        <tr><th>tytuł:</th><td><input name="title"></td></tr> 
+        <tr><th>treść:</th><td><textarea name="body"></textarea></td></tr>  
+    </table> 
+     
+    <input type="submit" value="dodaj"> 
+</form>

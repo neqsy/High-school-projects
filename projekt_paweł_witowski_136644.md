@@ -1,2 +1,0 @@
-Tytuł projektu:
-Gra Helikopter
